@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[login to APP]]>
+    </line>
+    <line>
+      <![CDATA[navigating to Accounts]]>
+    </line>
+    <line>
+      <![CDATA[navigating to Admin Page]]>
+    </line>
+    <line>
+      <![CDATA[Adding a customer]]>
+    </line>
+    <line>
+      <![CDATA[creating new customer]]>
+    </line>
+    <line>
+      <![CDATA[verify]]>
+    </line>
+    <line>
+      <![CDATA[Verifying creation of customer result]]>
+    </line>
+    <line>
+      <![CDATA[Edit and verify]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96053" started-at="2017-05-29T18:37:03Z" finished-at="2017-05-29T18:38:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96053" started-at="2017-05-29T18:37:03Z" finished-at="2017-05-29T18:38:39Z">
+      <class name="com.phptravels.usertest.USerTest">
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="configBeforeMtd" is-config="true" duration-ms="28561" started-at="2017-05-30T00:07:03Z" finished-at="2017-05-30T00:07:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="configBeforeClass" is-config="true" duration-ms="21669" started-at="2017-05-30T00:07:32Z" finished-at="2017-05-30T00:07:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login to APP]]>
+            </line>
+            <line>
+              <![CDATA[navigating to Accounts]]>
+            </line>
+            <line>
+              <![CDATA[navigating to Admin Page]]>
+            </line>
+            <line>
+              <![CDATA[Adding a customer]]>
+            </line>
+            <line>
+              <![CDATA[creating new customer]]>
+            </line>
+            <line>
+              <![CDATA[verify]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="verifyCustomerTest()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="verifyCustomerTest" duration-ms="98" started-at="2017-05-30T00:07:54Z" finished-at="2017-05-30T00:07:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying creation of customer result]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerTest -->
+        <test-method status="PASS" signature="verifyToursSelected()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="verifyToursSelected" duration-ms="3509" started-at="2017-05-30T00:07:54Z" finished-at="2017-05-30T00:07:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit and verify]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyToursSelected -->
+        <test-method status="PASS" signature="configAfterCls()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="configAfterCls" is-config="true" duration-ms="918" started-at="2017-05-30T00:07:57Z" finished-at="2017-05-30T00:07:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterCls -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.phptravels.usertest.USerTest@653222]" name="configAfterMtd" is-config="true" duration-ms="41035" started-at="2017-05-30T00:07:58Z" finished-at="2017-05-30T00:08:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+      </class> <!-- com.phptravels.usertest.USerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.phptravels.usertest.USerTest">
+        <methods>
+          <include name="verifyCustomerTest"/>
+          <include name="configAfterCls"/>
+          <include name="configAfterMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="verifyToursSelected"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- com.phptravels.usertest.USerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
